@@ -1,0 +1,12 @@
+{
+  "recommendations": [
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "ms-vscode.vscode-typescript-next",
+    "streetsidesoftware.code-spell-checker",
+    "editorconfig.editorconfig",
+    "yzhang.markdown-all-in-one",
+    "ms-azuretools.vscode-docker",
+    "github.copilot"
+  ]
+}

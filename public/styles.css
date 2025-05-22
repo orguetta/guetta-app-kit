@@ -1,0 +1,53 @@
+/* This is a placeholder CSS file for styling */
+:root {
+  --primary-color: #4285f4;
+  --secondary-color: #34a853;
+  --accent-color: #fbbc05;
+  --text-color: #333;
+  --background-color: #fff;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  color: var(--text-color);
+  background-color: var(--background-color);
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+header {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+.btn {
+  display: inline-block;
+  background-color: var(--primary-color);
+  color: white;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+footer {
+  background-color: #f8f9fa;
+  padding: 1rem 0;
+  text-align: center;
+  margin-top: 2rem;
+}
