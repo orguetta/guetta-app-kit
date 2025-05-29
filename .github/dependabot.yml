@@ -1,0 +1,17 @@
+version: 2
+updates:
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      # Disable all pull requests for Docker dependencies
+    open-pull-requests-limit: 0
+    labels:
+      - "dependencies"
+    reviewers:
+        - "orguetta"
+    assignees:
+       - "orguetta"
+    # ignore:
+    #   - dependency-name: "example-package" 
+    #     versions: ["4.x", "5.0.0"]
