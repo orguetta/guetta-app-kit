@@ -1,5 +1,5 @@
 # Node.js Dockerfile
-FROM node:18-alpine AS builder
+FROM node:24-alpine AS builder
 
 # Create app directory
 WORKDIR /app
@@ -17,7 +17,7 @@ COPY . .
 RUN npm run build
 
 # Production stage
-FROM node:18-alpine AS production
+FROM node:24-alpine AS production
 
 WORKDIR /app
 
